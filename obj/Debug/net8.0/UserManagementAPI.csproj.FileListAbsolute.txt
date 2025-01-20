@@ -78,3 +78,4 @@ C:\Users\DELL\OneDrive\Desktop\UserManagementAPI\obj\Debug\net8.0\refint\UserMan
 C:\Users\DELL\OneDrive\Desktop\UserManagementAPI\obj\Debug\net8.0\UserManagementAPI.pdb
 C:\Users\DELL\OneDrive\Desktop\UserManagementAPI\obj\Debug\net8.0\UserManagementAPI.genruntimeconfig.cache
 C:\Users\DELL\OneDrive\Desktop\UserManagementAPI\obj\Debug\net8.0\ref\UserManagementAPI.dll
+C:\Users\DELL\OneDrive\Desktop\UserManagementAPI\obj\Debug\net8.0\UserManagementAPI.sourcelink.json
