@@ -123,7 +123,7 @@ This Project is a .NET 8 WebAPI for managing users, where user data is fetched f
   }
   ```
   
-- Filter by country: `GET /api/users?country=USA`
+- Filter by country: `GET /api/users?country=United States`
 
   ```json
   [
