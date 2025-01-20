@@ -18,6 +18,7 @@ namespace UserManagementAPI.Controllers
             _userRepository = userRepository;
         }
 
+        //Endpoints: GET /api/users/populate
         [HttpGet("populate")]
         public async Task<IActionResult> Populate(int count = 10)
         {
@@ -32,6 +33,7 @@ namespace UserManagementAPI.Controllers
             return Ok(new { message = $"{users.Count} Users Saved Successfully!"});
         }
 
+        //Endpoints: GET /api/users/
         [HttpGet]
         public async Task<IActionResult> GetUsers([FromQuery] string? country = null)
         {
@@ -46,6 +48,7 @@ namespace UserManagementAPI.Controllers
             }
         }
 
+        //Endpoints: GET /api/users/metrics
         [HttpGet("metrics")]
         public async Task<IActionResult> GetMetrics()
         {
