@@ -15,7 +15,7 @@ This Project is a .NET 8 WebAPI for managing users, where user data is fetched f
 **Base URL**
 `http://localhost:5103/api`
 
-**Endpoints**:
+**Endpoints**
 | HTTP Method | Endpoint                   | Description                                                              |
 |-------------|----------------------------|--------------------------------------------------------------------------|
 | **GET**     | `/users`                  | Retrieves a list of users.                                               |
@@ -27,7 +27,7 @@ This Project is a .NET 8 WebAPI for managing users, where user data is fetched f
 ### **Headers**
 - `Content-Type: application/json`
 
-### **Example Responses & Requests.:**
+### **Example Responses & Requests**
 - Get All Users Order By Last Name: `/api/users`
 
   ```json
