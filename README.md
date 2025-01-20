@@ -14,7 +14,7 @@ This Project is a .NET 8 WebAPI for managing users, where user data is fetched f
 2. Added the connection string to `appsettings.json` to enable communication with the database.
 3. Start the application using `dotnet run`.
 
-### **Example Requests:**
+### **Example Responses & Requests.:**
 - Get All Users Order By Last Name: `/api/users`
 
   ```json
