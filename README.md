@@ -2,17 +2,30 @@
 
 This Project is a .NET 8 WebAPI for managing users, where user data is fetched from the Random User API and stored in a database.
 
-## Features
-- **GET /api/users**: Retrieves a list of users.
-- **GET /api/users?country="..."**: Retrieves a list of users with filtering by country and order by Last Name.
-- **GET /api/users/populate**: Fetches random user data stores it in the database (Default = 10).
-- **GET /api/users/populate?count="..."**: Fetches random user data with any count number and stores it in the database.
-- **GET /api/users/metrics**: Calculates and retrieves user metrics (Total Users, Unique Countries, and Average Age).
+### **Setup instructions:**
+1. NET SDK 8.0.
+2. Set up SQL Server as the database.
+3. Added the connection string to `appsettings.json` to enable communication with the database.
+4. Start the application using `dotnet run`.
+5. Using Postman for API testing.
 
-### **Setup:**
-1. Set up SQL Server as the database.
-2. Added the connection string to `appsettings.json` to enable communication with the database.
-3. Start the application using `dotnet run`.
+
+
+### **API details**
+**Base URL**
+`http://localhost:5103/api`
+
+**Endpoints**:
+| HTTP Method | Endpoint                   | Description                                                              |
+|-------------|----------------------------|--------------------------------------------------------------------------|
+| **GET**     | `/users`                  | Retrieves a list of users.                                               |
+| **GET**     | `/users?country=...`      | Retrieves users filtered by country and ordered by last name.            |
+| **GET**     | `/users/populate`         | Fetches 10 random users from the Random User API and stores them.        |
+| **GET**     | `/users/populate?count=...` | Fetches a specified number of random users and stores them.              |
+| **GET**     | `/users/metrics`          | Calculates and retrieves user metrics (Total Users, Unique Countries, Average Age). |
+
+### **Headers**
+- `Content-Type: application/json`
 
 ### **Example Responses & Requests.:**
 - Get All Users Order By Last Name: `/api/users`
