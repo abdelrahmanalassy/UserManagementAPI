@@ -11,7 +11,7 @@ This Project is a .NET 8 WebAPI for managing users, where user data is fetched f
 
 
 
-### **API details**
+### **API details:**
 **Base URL**
 `http://localhost:5103/api`
 
